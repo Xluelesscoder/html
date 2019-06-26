@@ -1,0 +1,46 @@
+  h1{
+     color: paleturquoise;
+
+  }
+
+  body{
+      margin:0;
+      background-image: url("27297.jpg");
+  }
+  div.content p{
+      margin-left: 200px;
+      padding:1px 16px;
+      width: 60%;
+      background-color: white;
+      font-size:19px;
+      opacity: 0.5;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+   
+  .sidebar a.active {
+    background-color:powderblue;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+ 
